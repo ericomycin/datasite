@@ -1,0 +1,40 @@
+{
+  "name": "ericodata",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prettier": "prettier --write **/*.jsx"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "firebase": "^12.11.0",
+    "jspdf": "^4.2.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-password-strength-bar": "^0.4.1",
+    "react-paystack": "^6.0.0",
+    "react-router-dom": "^7.13.1",
+    "react-spinners": "^0.17.0",
+    "sonner": "^2.0.7",
+    "sweetalert2": "^11.26.24",
+    "tailwindcss": "^4.2.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "vite": "^8.0.1",
+    "vite-plugin-remove-console": "^2.2.0"
+  }
+}
